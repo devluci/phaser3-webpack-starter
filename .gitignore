@@ -1,0 +1,11 @@
+.idea
+node_modules
+.env
+nginx/phaser3-webpack-starter.nginx.conf
+nginx/cloudflare.key
+nginx/cloudflare.pem
+
+dist
+.dist
+.temp
+.sym

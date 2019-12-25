@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "baseUrl": "src",
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
+}

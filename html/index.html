@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>phaser3-webpack-starter</title>
+    <meta name="description" content="Fishlish fish game.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.png?<%=__webpack_hash__%>" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400,700&display=swap&subset=korean">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+        .temp-hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+<div class="container hidden temp-hidden" id="not-supported">
+    <div class="container-cell">
+        <div class="error not-supported">
+            <i class="material-icons">warning</i>
+            Not supported
+        </div>
+        <div class="detail">
+            지원되지 않는 브라우저네요... :(
+        </div>
+    </div>
+</div>
+<div class="container" id="ui-container">
+    <div class="container-cell">
+        <div class="ui-list"></div>
+    </div>
+</div>
+<div class="container" id="game"></div>
+</body>
+</html>
