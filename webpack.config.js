@@ -110,6 +110,7 @@ module.exports = (env, argv) => {
       ]),
       // new WebpackFreeTexPacker(path.resolve(__dirname, 'sprites/pack/*'), 'assets/img', {
       //   textureName: 'pack',
+      //   allowRotation: false,
       //   padding: 1,
       //   removeFileExtension: true,
       //   exporter: 'Phaser3',
