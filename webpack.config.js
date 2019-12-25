@@ -3,7 +3,7 @@ const path = require('path');
 
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const WebpackFreeTexPacker = require('webpack-free-tex-packer');
+// const WebpackFreeTexPacker = require('webpack-free-tex-packer');
 
 const {TsConfigPathsPlugin} = require('awesome-typescript-loader');
 
@@ -108,12 +108,12 @@ module.exports = (env, argv) => {
           to: 'assets',
         },
       ]),
-      new WebpackFreeTexPacker(path.resolve(__dirname, 'sprites/fish/*'), 'assets/img', {
-        textureName: 'fish',
-        padding: 1,
-        removeFileExtension: true,
-        exporter: 'Phaser3',
-      }),
+      // new WebpackFreeTexPacker(path.resolve(__dirname, 'sprites/pack/*'), 'assets/img', {
+      //   textureName: 'pack',
+      //   padding: 1,
+      //   removeFileExtension: true,
+      //   exporter: 'Phaser3',
+      // }),
       new DotenvPlugin({
         path: envPath,
       }),
